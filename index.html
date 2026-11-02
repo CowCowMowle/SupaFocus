@@ -10,51 +10,62 @@
 
 <body>
 
-    <header>
+    <header class="header">
 
         <h1>SupaFocus</h1>
         <p>Organize sua vida, uma tarefa por vez.</p>
 
     </header>
 
-    <main>
-        <nav>
+    <main class="layout">
+        <nav class="sidebar">
             <h2>Menu</h2>
 
             <ul>
-                <li><a href="#">Dashboard</a></li>
+                <li><a href="#" class="active">Dashboard</a></li>
                 <li><a href="#">Minhas tarefas</a></li>
                 <li><a href="#">Calendário</a></li>
                 <li><a href="#">Tarefas</a></li>
             </ul>
         </nav>
 
-        <section>
-
-            <h2>Olá, seja bem-vindo ao SupaFocus</h2>
-            <p>Vamos ser produtivos hoje?</p>
-
-            <div>
-                <h3>Minhas tarefas</h3>
-                <p>12 tarefas</p>
+        <section class="dashboard">
+            <div class="welcome">
+                <h2>Olá, seja bem-vindo ao SupaFocus</h2>
+                <p>Vamos ser produtivos hoje?</p>
             </div>
 
-            <div>
-                <h3>Minha lista de tarefas</h3>
+            <div class="stats">
 
-                <ul>
-                    <li>Estudar HTML</li>
-                    <li>Praticar CSS</li>
-                    <li>Aprender JavaScript</li>
-                    <li>Organizar minha semana</li>
-                </ul>
+                <div class="card">
+                    <h3>Minhas tarefas</h3>
+                    <p>12 tarefas</p>
+                </div>
+
+                <div class="card">
+                    <h3>Tarefas concluidas</h3>
+                    <p>8 tarefas</p>
+                </div>
+
             </div>
+
+                <div class="card task-card">
+                    <h3>Minha lista de tarefas</h3>
+
+                    <ul>
+                        <li>Estudar HTML</li>
+                        <li>Praticar CSS</li>
+                        <li>Aprender JavaScript</li>
+                        <li>Organizar minha semana</li>
+                    </ul>
+                </div>
+            
 
         </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Desenvolvido por Natan</p>
         <p>SupaFocus © 2026</p>
     </footer>
