@@ -52,12 +52,34 @@
                 <div class="card task-card">
                     <h3>Minha lista de tarefas</h3>
 
-                    <ul>
-                        <li>Estudar HTML</li>
-                        <li>Praticar CSS</li>
-                        <li>Aprender JavaScript</li>
-                        <li>Organizar minha semana</li>
+                    <ul id="lista-tarefas">
+                        <li>
+                            <input type="checkbox">
+                            <label>Estudar HTML</label>
+                            <button>🗑️</button>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <label>Praticar CSS</label>
+                            <button>🗑️</button>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <label>Aprender JavaScript</label>
+                            <button>🗑️</button>
+                        </li>
                     </ul>
+
+                    <div class="task-form"> 
+                    <input 
+                    type="text" 
+                    id="input-tarefa"
+                    placeholder="Digite uma nova tarefa"
+                    >
+
+
+                    <button id="botao-adicionar">Adicionar tarefa</button>
+                    </div>
                 </div>
             
 

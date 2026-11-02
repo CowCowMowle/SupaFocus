@@ -170,3 +170,47 @@ body {
     border: 2px solid #7655D9;
     border-radius: 12px;
 }
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-form input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #DDD6EF;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.task-form input:focus {
+    outline: 2px solid #7655D9;
+    outline-offset: 1px;
+}
+
+.task-form button {
+    padding: 12px 20px;
+    background-color: #7655D9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #6040BC;
+}
+
+@media (max-width: 480px) {
+    .task-form {
+        flex-direction: column;
+    }
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: #999;
+}
