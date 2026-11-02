@@ -87,12 +87,13 @@ body {
 
 .stats {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     margin-bottom: 25px;
 }
 
 .card {
-    background-color: #FFFFFF;
+    background: #FFF;
     padding: 25px;
     border-radius: 12px;
     border: 1px solid #EAE7F0;
@@ -160,4 +161,12 @@ body {
     .welcome h2 {
         font-size: 21px;
     }
+}
+
+.welcome {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #7655D9;
+    border-radius: 12px;
 }
